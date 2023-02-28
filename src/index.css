@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,52 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.bloque {
+  width: 75%;
+  display: flex;
+
+  border: 3px solid black;
+}
+p {
+  margin: 0;
+}
+.persona {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.saludo {
+  border: 3px solid black;
+  margin-top: 15px;
+  width: 75%;
+}
+.random {
+  border: 3px solid black;
+  margin-top: 15px;
+  width: 75%;
+}
+.card {
+  margin-top: 20px;
+  border-radius: 7px;
+  width: 20%;
+  height: 50%;
+}
+.logo {
+  width: 25%;
+  height: 10%;
+  margin-left: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+.block {
+  width: 75%;
+  display: flex;
+}
+.carnet {
+  width: 25%;
+}
+.conducir { 
+  display: flex;
+  flex-direction: column;
 }
